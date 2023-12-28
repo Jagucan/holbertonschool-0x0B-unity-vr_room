@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 193640134}
-  m_IndirectSpecularColor: {r: 0.3518418, g: 0.5781066, b: 0.76798, a: 1}
+  m_IndirectSpecularColor: {r: 0.101418585, g: 0.28924653, b: 0.5374653, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6715705}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Interactables
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -269,7 +269,7 @@ GameObject:
   - component: {fileID: 28187987}
   - component: {fileID: 28187993}
   - component: {fileID: 28187992}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Small Box H
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,8 +359,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &28187992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -373,20 +371,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &28187993
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -645,7 +629,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!1 &87409452
 GameObject:
   m_ObjectHideFlags: 0
@@ -948,7 +931,7 @@ GameObject:
   - component: {fileID: 111305939}
   - component: {fileID: 111305945}
   - component: {fileID: 111305944}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Small Box C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1038,8 +1021,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &111305944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1052,20 +1033,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &111305945
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1274,7 +1241,7 @@ GameObject:
   - component: {fileID: 159622030}
   - component: {fileID: 159622036}
   - component: {fileID: 159622035}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Small Box G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1364,8 +1331,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &159622035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1378,20 +1343,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &159622036
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1430,7 +1381,7 @@ GameObject:
   - component: {fileID: 168467171}
   - component: {fileID: 168467173}
   - component: {fileID: 168467172}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PawnDark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1511,12 +1462,32 @@ PrefabInstance:
     m_TransformParent: {fileID: 1161631421}
     m_Modifications:
     - target: {fileID: 114796, guid: 496fa247adc61d44ebaeaf9d72671287, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114796, guid: 496fa247adc61d44ebaeaf9d72671287, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 118420, guid: 496fa247adc61d44ebaeaf9d72671287, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 129374, guid: 496fa247adc61d44ebaeaf9d72671287, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 132678, guid: 496fa247adc61d44ebaeaf9d72671287, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 167654, guid: 496fa247adc61d44ebaeaf9d72671287, type: 3}
       propertyPath: m_Name
       value: Projector
+      objectReference: {fileID: 0}
+    - target: {fileID: 167654, guid: 496fa247adc61d44ebaeaf9d72671287, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 419662, guid: 496fa247adc61d44ebaeaf9d72671287, type: 3}
       propertyPath: m_RootOrder
@@ -2225,6 +2196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ConsoleScreen
       objectReference: {fileID: 0}
+    - target: {fileID: 151532, guid: 814f2f52d8dd87948a0fba9364aa412b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 455770, guid: 814f2f52d8dd87948a0fba9364aa412b, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2503,7 +2478,7 @@ GameObject:
   - component: {fileID: 313074370}
   - component: {fileID: 313074376}
   - component: {fileID: 313074375}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Small Box D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2593,8 +2568,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &313074375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2607,20 +2580,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &313074376
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2710,6 +2669,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1161631421}
     m_Modifications:
+    - target: {fileID: 1411003019843990, guid: 423906e3a82141942aa314fe7f592788, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4054476460464272, guid: 423906e3a82141942aa314fe7f592788, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -3051,25 +3014,201 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1161631421}
     m_Modifications:
+    - target: {fileID: 1006182037109014, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1007137668262374, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030914736838342, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042164612217212, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047724347050930, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1061581204462318, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1077170312067350, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097835950912982, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143644238588574, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199693423860696, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214383481752416, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1219882734160562, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258230911515254, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1258230911515254, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279042805307684, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279795845601762, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1352894194362962, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1352894194362962, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1391751831921762, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406209738815346, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406833396418230, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1423444329520554, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1501734389318864, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515943737033958, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1577921420570782, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1577921420570782, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1592292478725462, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1597915674465970, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
       propertyPath: m_Name
       value: ChessBoard
       objectReference: {fileID: 0}
+    - target: {fileID: 1597915674465970, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603907031073628, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1603907031073628, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614740884239598, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1621777035824342, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628828461410036, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651884037277076, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676679127268330, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696954754349814, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699584976494424, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701408099124086, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1789058245380158, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1804306054741418, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872826366862448, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1878159687346630, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1889770674201340, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1890271746722730, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1933904871695420, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1943464933237776, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956815101891986, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1974613998787502, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4258394669215810, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
       propertyPath: m_RootOrder
@@ -3221,7 +3360,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 337365996}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: StorageRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3283,7 +3422,7 @@ GameObject:
   - component: {fileID: 352216284}
   - component: {fileID: 352216290}
   - component: {fileID: 352216289}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Large Box A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3373,8 +3512,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &352216289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3387,20 +3524,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &352216290
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4330,7 +4453,7 @@ GameObject:
   m_Component:
   - component: {fileID: 511970056}
   - component: {fileID: 511970057}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WhiteLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5684,7 +5807,7 @@ GameObject:
   - component: {fileID: 753735703}
   - component: {fileID: 753735709}
   - component: {fileID: 753735708}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Container A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5775,8 +5898,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &753735708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5789,20 +5910,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &753735709
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5907,6 +6014,10 @@ PrefabInstance:
     - target: {fileID: 186660, guid: 914595d46f531e44f8b35cd1232a0750, type: 3}
       propertyPath: m_Name
       value: Cabinet
+      objectReference: {fileID: 0}
+    - target: {fileID: 186660, guid: 914595d46f531e44f8b35cd1232a0750, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 481974, guid: 914595d46f531e44f8b35cd1232a0750, type: 3}
       propertyPath: m_RootOrder
@@ -7284,7 +7395,7 @@ GameObject:
   - component: {fileID: 964460320}
   - component: {fileID: 964460326}
   - component: {fileID: 964460325}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Container B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7375,8 +7486,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &964460325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7389,20 +7498,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &964460326
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8038,7 +8133,7 @@ GameObject:
   - component: {fileID: 1047313457}
   - component: {fileID: 1047313463}
   - component: {fileID: 1047313462}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Medium Box B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8128,8 +8223,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1047313462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8142,20 +8235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1047313463
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8572,6 +8651,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1161631421}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0705906c3356b1a48a7469e05dfaba4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0705906c3356b1a48a7469e05dfaba4f, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -8836,98 +8919,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 447618, guid: 6456a4784f31cab439d29b7e3bb286a4, type: 3}
   m_PrefabInstance: {fileID: 1135288638}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1136318568
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1136318571}
-  - component: {fileID: 1136318570}
-  - component: {fileID: 1136318569}
-  m_Layer: 0
-  m_Name: Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &1136318569
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1136318568}
-  m_Enabled: 1
---- !u!20 &1136318570
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1136318568}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_Iso: 200
-  m_ShutterSpeed: 0.005
-  m_Aperture: 16
-  m_FocusDistance: 10
-  m_FocalLength: 50
-  m_BladeCount: 5
-  m_Curvature: {x: 2, y: 11}
-  m_BarrelClipping: 0.25
-  m_Anamorphism: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &1136318571
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1136318568}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.8, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1145436476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9071,7 +9062,7 @@ GameObject:
   - component: {fileID: 1152786551}
   - component: {fileID: 1152786557}
   - component: {fileID: 1152786556}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tube B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9162,8 +9153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1152786556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9176,20 +9165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1152786557
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9291,7 +9266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1161631421}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MainRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9535,9 +9510,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1161631421}
     m_Modifications:
+    - target: {fileID: 131706, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 137354, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 188780, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
       propertyPath: m_Name
       value: Pillow A
+      objectReference: {fileID: 0}
+    - target: {fileID: 188780, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 452766, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
       propertyPath: m_RootOrder
@@ -11094,7 +11081,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!65 &1395487791
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11128,8 +11114,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b20ee9c67e5821f4d8b2f23d25538eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reticleTransform: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!1 &1415807834
 GameObject:
   m_ObjectHideFlags: 0
@@ -11145,7 +11129,7 @@ GameObject:
   - component: {fileID: 1415807841}
   - component: {fileID: 1415807840}
   - component: {fileID: 1415807842}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RookDark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11229,8 +11213,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1415807840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11243,20 +11225,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1415807841
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11313,9 +11281,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1161631421}
     m_Modifications:
+    - target: {fileID: 131706, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 137354, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 188780, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
       propertyPath: m_Name
       value: Pillow C
+      objectReference: {fileID: 0}
+    - target: {fileID: 188780, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 452766, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
       propertyPath: m_RootOrder
@@ -11371,9 +11351,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1161631421}
     m_Modifications:
+    - target: {fileID: 131706, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 137354, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 188780, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
       propertyPath: m_Name
       value: Pillow B
+      objectReference: {fileID: 0}
+    - target: {fileID: 188780, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 452766, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
       propertyPath: m_RootOrder
@@ -11502,7 +11494,7 @@ GameObject:
   - component: {fileID: 1436331147}
   - component: {fileID: 1436331149}
   - component: {fileID: 1436331148}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BishopLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11589,7 +11581,7 @@ GameObject:
   - component: {fileID: 1448608419}
   - component: {fileID: 1448608422}
   - component: {fileID: 1448608418}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11608,8 +11600,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1448608419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11622,20 +11612,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1448608420
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12163,7 +12139,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsOver: 0
 --- !u!1 &1491069421
 GameObject:
   m_ObjectHideFlags: 0
@@ -12449,7 +12424,7 @@ GameObject:
   - component: {fileID: 1526245122}
   - component: {fileID: 1526245128}
   - component: {fileID: 1526245127}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tube A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12540,8 +12515,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1526245127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12554,20 +12527,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1526245128
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13143,6 +13102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArtStatue B
       objectReference: {fileID: 0}
+    - target: {fileID: 156656, guid: bddb1706eb9e38c4c8aad9e975af8fba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 405642, guid: bddb1706eb9e38c4c8aad9e975af8fba, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -13285,7 +13248,7 @@ GameObject:
   - component: {fileID: 1645799096}
   - component: {fileID: 1645799102}
   - component: {fileID: 1645799101}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Small Box A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13375,8 +13338,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1645799101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13389,20 +13350,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1645799102
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13445,7 +13392,7 @@ GameObject:
   - component: {fileID: 1662838654}
   - component: {fileID: 1662838660}
   - component: {fileID: 1662838659}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Small Box E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13535,8 +13482,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1662838659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13549,20 +13494,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1662838660
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14147,6 +14078,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArtStatue A
       objectReference: {fileID: 0}
+    - target: {fileID: 136794, guid: df1cac3988f7cf841b2b0afc88ea5e26, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 482476, guid: df1cac3988f7cf841b2b0afc88ea5e26, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -14224,7 +14159,7 @@ GameObject:
   - component: {fileID: 1723585043}
   - component: {fileID: 1723585049}
   - component: {fileID: 1723585048}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Small Box B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14314,8 +14249,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1723585048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14328,20 +14261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1723585049
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14683,9 +14602,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1161631421}
     m_Modifications:
+    - target: {fileID: 131706, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 137354, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 188780, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
       propertyPath: m_Name
       value: Pillow D
+      objectReference: {fileID: 0}
+    - target: {fileID: 188780, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 452766, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
       propertyPath: m_RootOrder
@@ -14926,7 +14857,7 @@ GameObject:
   - component: {fileID: 1792350373}
   - component: {fileID: 1792350379}
   - component: {fileID: 1792350378}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Console
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15017,8 +14948,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1792350378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15031,20 +14960,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1792350379
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15336,7 +15251,7 @@ GameObject:
   - component: {fileID: 1829891264}
   - component: {fileID: 1829891267}
   - component: {fileID: 1829891263}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: KnightLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15355,8 +15270,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1829891264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15369,20 +15282,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1829891265
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16174,7 +16073,7 @@ GameObject:
   - component: {fileID: 1956754392}
   - component: {fileID: 1956754391}
   - component: {fileID: 1956754393}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Flashlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16267,8 +16166,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &1956754391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16281,20 +16178,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &1956754392
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16636,7 +16519,7 @@ GameObject:
   - component: {fileID: 1999454129}
   - component: {fileID: 1999454128}
   - component: {fileID: 1999454127}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Desk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16725,7 +16608,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2001524234}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IndividualChess
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17175,7 +17058,7 @@ GameObject:
   - component: {fileID: 2084471650}
   - component: {fileID: 2084471656}
   - component: {fileID: 2084471655}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Medium Box A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17265,8 +17148,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &2084471655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17279,20 +17160,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &2084471656
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17335,7 +17202,7 @@ GameObject:
   - component: {fileID: 2084804444}
   - component: {fileID: 2084804450}
   - component: {fileID: 2084804449}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Small Box F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17425,8 +17292,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c517e7714f7154fb45959876e6daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: {fileID: 0}
-  _vrItem: {fileID: 0}
 --- !u!114 &2084804449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17439,20 +17304,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 1
-  m_snapOrientation: 1
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
-  m_grabbedKinematic: 0
-  m_grabbedCollider: {fileID: 0}
-  m_grabbedBy: {fileID: 0}
-  m_materialColorField: _OutlineColor
-  m_crosshair: {fileID: 0}
-  m_crosshairManager: {fileID: 0}
-  m_renderer: {fileID: 0}
-  m_inRange: 0
-  m_targeted: 0
 --- !u!54 &2084804450
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17844,6 +17695,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 487622, guid: 964e3fd2e5ff9014ea2a3ce4b682e2c1, type: 3}
   m_PrefabInstance: {fileID: 2108190505}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2110545141
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2914008533180385791, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2914008533180385791, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2914008533180385791, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2914008533180385791, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2914008533180385791, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2914008533180385791, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2914008533180385791, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2914008533180385791, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2914008533180385791, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2914008533180385791, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167401848329496066, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167401848329496066, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
 --- !u!4 &2117466409
 Transform:
   m_ObjectHideFlags: 0
@@ -18046,8 +17958,8 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1136318571}
   - {fileID: 193640135}
   - {fileID: 2097134644}
   - {fileID: 1285060135}
   - {fileID: 6715705}
+  - {fileID: 2110545141}

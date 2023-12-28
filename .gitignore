@@ -77,3 +77,7 @@ crashlytics-build.properties
 /Packages/
 .vscode/*
 ignore.conf
+Assets/Standard Assets/*
+Assets/Standard Assets.meta
+Assets/Prefabs/Player CardBoard 1.prefab
+Assets/Prefabs/Player CardBoard 1.prefab.meta
