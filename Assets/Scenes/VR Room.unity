@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 6715705}
   m_Layer: 6
   m_Name: Interactables
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 28187992}
   m_Layer: 6
   m_Name: Small Box H
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -589,7 +589,7 @@ GameObject:
   - component: {fileID: 78113475}
   m_Layer: 0
   m_Name: floor_2_L (3)
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -933,7 +933,7 @@ GameObject:
   - component: {fileID: 111305944}
   m_Layer: 6
   m_Name: Small Box C
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1243,7 +1243,7 @@ GameObject:
   - component: {fileID: 159622035}
   m_Layer: 6
   m_Name: Small Box G
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1608,6 +1608,10 @@ PrefabInstance:
     - target: {fileID: 106282, guid: 548a40efc092c6f408cc4d1691b171cc, type: 3}
       propertyPath: m_Name
       value: floor_5 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 106282, guid: 548a40efc092c6f408cc4d1691b171cc, type: 3}
+      propertyPath: m_TagString
+      value: Teleport
       objectReference: {fileID: 0}
     - target: {fileID: 439240, guid: 548a40efc092c6f408cc4d1691b171cc, type: 3}
       propertyPath: m_RootOrder
@@ -2162,7 +2166,7 @@ GameObject:
   - component: {fileID: 269374884}
   m_Layer: 0
   m_Name: Floors
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2480,7 +2484,7 @@ GameObject:
   - component: {fileID: 313074375}
   m_Layer: 6
   m_Name: Small Box D
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3362,7 +3366,7 @@ GameObject:
   - component: {fileID: 337365996}
   m_Layer: 6
   m_Name: StorageRoom
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3424,7 +3428,7 @@ GameObject:
   - component: {fileID: 352216289}
   m_Layer: 6
   m_Name: Large Box A
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3766,7 +3770,7 @@ GameObject:
   - component: {fileID: 412491201}
   m_Layer: 0
   m_Name: floor_2_blank
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4195,6 +4199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_5 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 106282, guid: 548a40efc092c6f408cc4d1691b171cc, type: 3}
+      propertyPath: m_TagString
+      value: Teleport
+      objectReference: {fileID: 0}
     - target: {fileID: 439240, guid: 548a40efc092c6f408cc4d1691b171cc, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -4565,7 +4573,7 @@ GameObject:
   - component: {fileID: 515217345}
   m_Layer: 0
   m_Name: floor_2
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4693,7 +4701,7 @@ GameObject:
   - component: {fileID: 550557028}
   m_Layer: 0
   m_Name: floor_2 (7)
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5071,7 +5079,7 @@ GameObject:
   - component: {fileID: 621979561}
   m_Layer: 0
   m_Name: floor_2_L (2)
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5737,6 +5745,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 106282, guid: 548a40efc092c6f408cc4d1691b171cc, type: 3}
+      propertyPath: m_TagString
+      value: Teleport
+      objectReference: {fileID: 0}
     - target: {fileID: 439240, guid: 548a40efc092c6f408cc4d1691b171cc, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -5809,7 +5821,7 @@ GameObject:
   - component: {fileID: 753735708}
   m_Layer: 6
   m_Name: Container A
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6157,7 +6169,7 @@ GameObject:
   - component: {fileID: 793035039}
   m_Layer: 0
   m_Name: floor_4
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7397,7 +7409,7 @@ GameObject:
   - component: {fileID: 964460325}
   m_Layer: 6
   m_Name: Container B
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7962,6 +7974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_5 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 106282, guid: 548a40efc092c6f408cc4d1691b171cc, type: 3}
+      propertyPath: m_TagString
+      value: Teleport
+      objectReference: {fileID: 0}
     - target: {fileID: 439240, guid: 548a40efc092c6f408cc4d1691b171cc, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -8135,7 +8151,7 @@ GameObject:
   - component: {fileID: 1047313462}
   m_Layer: 6
   m_Name: Medium Box B
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8998,7 +9014,7 @@ GameObject:
   - component: {fileID: 1150182703}
   m_Layer: 0
   m_Name: floor_2 (2)
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9064,7 +9080,7 @@ GameObject:
   - component: {fileID: 1152786556}
   m_Layer: 6
   m_Name: Tube B
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9315,7 +9331,7 @@ GameObject:
   - component: {fileID: 1162641442}
   m_Layer: 0
   m_Name: floor_2 (9)
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10486,6 +10502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_5 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 106282, guid: 548a40efc092c6f408cc4d1691b171cc, type: 3}
+      propertyPath: m_TagString
+      value: Teleport
+      objectReference: {fileID: 0}
     - target: {fileID: 439240, guid: 548a40efc092c6f408cc4d1691b171cc, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -10814,6 +10834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_5 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 106282, guid: 548a40efc092c6f408cc4d1691b171cc, type: 3}
+      propertyPath: m_TagString
+      value: Teleport
+      objectReference: {fileID: 0}
     - target: {fileID: 439240, guid: 548a40efc092c6f408cc4d1691b171cc, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -11041,7 +11065,7 @@ GameObject:
   - component: {fileID: 1395487789}
   m_Layer: 0
   m_Name: floor_2 (1)
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11131,7 +11155,7 @@ GameObject:
   - component: {fileID: 1415807842}
   m_Layer: 6
   m_Name: RookDark
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11583,7 +11607,7 @@ GameObject:
   - component: {fileID: 1448608418}
   m_Layer: 6
   m_Name: Rope
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11916,7 +11940,7 @@ GameObject:
   - component: {fileID: 1478891965}
   m_Layer: 0
   m_Name: floor_5 (10)
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12151,7 +12175,7 @@ GameObject:
   - component: {fileID: 1491069422}
   m_Layer: 0
   m_Name: floor_2_L (4)
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12245,6 +12269,73 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 465744, guid: f3a954679d4d04b49953424fc6bf526c, type: 3}
   m_PrefabInstance: {fileID: 1493208298}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1497511107
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2110545142}
+    m_Modifications:
+    - target: {fileID: 2305158326965435992, guid: 2f0432d3a9594db438d41ca88128c4a1, type: 3}
+      propertyPath: m_Name
+      value: GazeManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2305158326965436007, guid: 2f0432d3a9594db438d41ca88128c4a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2305158326965436007, guid: 2f0432d3a9594db438d41ca88128c4a1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2305158326965436007, guid: 2f0432d3a9594db438d41ca88128c4a1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2305158326965436007, guid: 2f0432d3a9594db438d41ca88128c4a1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2305158326965436007, guid: 2f0432d3a9594db438d41ca88128c4a1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2305158326965436007, guid: 2f0432d3a9594db438d41ca88128c4a1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2305158326965436007, guid: 2f0432d3a9594db438d41ca88128c4a1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2305158326965436007, guid: 2f0432d3a9594db438d41ca88128c4a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2305158326965436007, guid: 2f0432d3a9594db438d41ca88128c4a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2305158326965436007, guid: 2f0432d3a9594db438d41ca88128c4a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2f0432d3a9594db438d41ca88128c4a1, type: 3}
+--- !u!4 &1497511108 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2305158326965436007, guid: 2f0432d3a9594db438d41ca88128c4a1, type: 3}
+  m_PrefabInstance: {fileID: 1497511107}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1497511109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2305158326051495779, guid: 2f0432d3a9594db438d41ca88128c4a1, type: 3}
+  m_PrefabInstance: {fileID: 1497511107}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1508252979
 GameObject:
   m_ObjectHideFlags: 0
@@ -12258,7 +12349,7 @@ GameObject:
   - component: {fileID: 1508252980}
   m_Layer: 0
   m_Name: floor_2 (6)
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12426,7 +12517,7 @@ GameObject:
   - component: {fileID: 1526245127}
   m_Layer: 6
   m_Name: Tube A
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12626,7 +12717,7 @@ GameObject:
   - component: {fileID: 1535208375}
   m_Layer: 0
   m_Name: floor_2_blank (1)
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13250,7 +13341,7 @@ GameObject:
   - component: {fileID: 1645799101}
   m_Layer: 6
   m_Name: Small Box A
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13394,7 +13485,7 @@ GameObject:
   - component: {fileID: 1662838659}
   m_Layer: 6
   m_Name: Small Box E
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14038,7 +14129,7 @@ GameObject:
   - component: {fileID: 1698031165}
   m_Layer: 0
   m_Name: floor_2_L (1)
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14161,7 +14252,7 @@ GameObject:
   - component: {fileID: 1723585048}
   m_Layer: 6
   m_Name: Small Box B
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14288,6 +14379,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1729961038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967165751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a7ddcd661535994fb52f10f9269c239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseCardboardSimulator: 1
+  horizontalSpeed: 0.5
+  verticalSpeed: 0.5
+  rotationX: 0
+  rotationY: 0
 --- !u!1 &1730938515
 GameObject:
   m_ObjectHideFlags: 0
@@ -15253,7 +15361,7 @@ GameObject:
   - component: {fileID: 1829891263}
   m_Layer: 6
   m_Name: KnightLight
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16075,7 +16183,7 @@ GameObject:
   - component: {fileID: 1956754393}
   m_Layer: 6
   m_Name: Flashlight
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16361,6 +16469,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 434982, guid: 6812e31ceb91fc04da03973c6b1054cd, type: 3}
   m_PrefabInstance: {fileID: 1958053500}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1967165751 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4167401848329496066, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+  m_PrefabInstance: {fileID: 2110545141}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1973513091 stripped
 Transform:
@@ -16725,7 +16838,7 @@ GameObject:
   - component: {fileID: 2054009171}
   m_Layer: 0
   m_Name: floor_2 (8)
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17060,7 +17173,7 @@ GameObject:
   - component: {fileID: 2084471655}
   m_Layer: 6
   m_Name: Medium Box A
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17204,7 +17317,7 @@ GameObject:
   - component: {fileID: 2084804449}
   m_Layer: 6
   m_Name: Small Box F
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17751,11 +17864,76 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8117312782981096542, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8117312783704901096, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2914008533180385791, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1497511108}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4167401848329496066, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1729961038}
+    - targetCorrespondingSourceObject: {fileID: 8197494879544798821, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2110545146}
+    - targetCorrespondingSourceObject: {fileID: 8117312782981096542, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2110545145}
   m_SourcePrefab: {fileID: 100100000, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+--- !u!4 &2110545142 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2914008533180385791, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+  m_PrefabInstance: {fileID: 2110545141}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2110545143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8117312782981096542, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+  m_PrefabInstance: {fileID: 2110545141}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2110545144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8197494879544798821, guid: ca6337678c9448f42a5d2d5c44eef931, type: 3}
+  m_PrefabInstance: {fileID: 2110545141}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2110545145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110545143}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39d2c14715275d44fa1ad0bc047788b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointer: {fileID: 2110545144}
+  distancePointer: 4.5
+  distancePointerObject: 0.95
+--- !u!114 &2110545146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110545144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39d2c14715275d44fa1ad0bc047788b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointer: {fileID: 1497511109}
+  distancePointer: 4.5
+  distancePointerObject: 0.95
 --- !u!4 &2117466409
 Transform:
   m_ObjectHideFlags: 0
