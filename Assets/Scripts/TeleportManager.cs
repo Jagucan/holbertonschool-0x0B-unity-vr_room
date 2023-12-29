@@ -29,5 +29,10 @@ public class TeleportManager : MonoBehaviour
 
         teleportPoint.SetActive(false);
         lastTeleportPoint = teleportPoint;
+
+#if UNITY_EDITOR
+        Player.GetComponent<CardboardSimulator>().UpdatePlayerPositonSimulator();
+#endif
+
     }
 }
